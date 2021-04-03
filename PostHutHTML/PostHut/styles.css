@@ -1,0 +1,181 @@
+div.register {
+    text-align: left;
+    align-content: left;
+}
+body {
+   font-family: Helvetica, sans-serif;
+   color: #555;
+   background-color: #e6f2ff;
+}
+
+.hidden {
+   display: none;
+}
+
+.error-msg {
+   color: red;
+}
+
+table {
+   margin-left: auto;
+   margin-right: auto;
+   align-content: center;
+   margin-bottom: 15px;
+}
+
+table caption {
+   font-weight: bold;
+}
+
+table td {
+   text-align: center;
+   padding: 3px 8px;
+}
+h4 {
+    text-align: center;
+}
+body {
+  overflow-x: hidden;
+  font-family: 'Roboto Slab', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+p, strong {
+  line-height: 1.75;
+    align-content: center;
+    text-align: center;
+}
+
+a {
+  color: #0EE3C6;
+}
+
+a:hover {
+  color: #0EE3C6;
+}
+
+form {
+    align-content: center;
+    text-align: left;
+}
+.text-primary {
+  color: #0EE3C6 !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    text-align: center;
+}
+
+.page-section {
+  padding: 100px 0;
+}
+
+.page-section h2.section-heading {
+  font-size: 40px;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+.page-section h3.section-subheading {
+  font-size: 16px;
+  font-weight: 400;
+  font-style: italic;
+  margin-bottom: 75px;
+  text-transform: none;
+  font-family: 'Droid Serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+.btn btn-info{
+    align-content: center;
+    text-align: center;
+}
+.row {
+  display: flex;
+  border: auto;
+  padding: auto;
+}
+
+.column {
+  flex: 50%;
+}
+
+.form-group {
+    align-content: center;
+    text-align: center;
+    padding: auto;
+}
+
+.form-control {
+    margin: auto;
+}
+
+.userZip {
+    align-content: center;
+    text-align: center;
+}
+
+div.userInput {
+    text-align: lef;
+    align-content: center;
+}
+
+small {
+    text-align: center;
+    align-content: center;
+}
+
+.navbar-brand {
+    font-size: 20px;
+}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  text-align: left;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+.container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+}
