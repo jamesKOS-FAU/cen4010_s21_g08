@@ -1,0 +1,84 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Voting a Theme</title>
+
+    <!--Font Links -->
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&amp;display=swap" rel="stylesheet">
+
+    <!--Element Links-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <script src="weather.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body data-new-gr-c-s-check-loaded="14.1004.0" data-gr-ext-installed="">
+    <!--Navigation Bar-->
+    <section>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <h1 class="display-5">Post</h1><h1 style="color:#16BDE7">Hut</h1>
+
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link active" href="./home.html">Home Page</a>
+                    <a class="nav-item nav-link" href="./theme_v0.html">Daily Theme</a>
+                    <a class="nav-item nav-link" href="./popular_v0.html">Popular Posts<span class="sr-only">(current)</span></a>
+                </div>
+            </div>
+            <form class="form-inline">
+                <p> <a href="./accountpage.html">My Account</a></p>
+            </form>
+        </nav>
+    </section>
+
+    <!--JumboTron Display-->
+    <section class="jumbotron jumbotron-fluid bg-info text-white" id="Portfolio">
+        <div class="container">
+            <h1 class="display-4">Welcome to the Voting Page</h1>
+            <h5> <br> Please vote for tomorrow's <b>theme</b>. <br> <b>You can only vote once a day.</b> Please vote carefully, as you cannot change your vote afterward.</h5>
+        </div>
+    </section>
+
+    <!--Themes-->
+    <h3> The avalaible themes are: </h3>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Cat Theme</h5>
+                        <p><img src="./cat.jpg" , width="300" height="300"></p>
+                        <a href="./theme_v0.html" class="btn btn-primary" onclick="alert('Thank you for voting! Redirecting back to the Theme Page.')">Vote!</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Nature Theme</h5>
+                        <p><img src="./DSC_0161.JPG" , width="300" height="300"></p>
+                        <a href="./theme_v0.html" class="btn btn-primary" onclick="alert('Thank you for voting! Redirecting back to the Theme Page.')">Vote!</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>
