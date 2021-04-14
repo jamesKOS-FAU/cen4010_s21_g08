@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+
+    <title>Daily Theme</title>
+
+    <!--Element Link-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <body>
+        <section>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <h1 class="display-5">Post<h1 style="color:#16BDE7">Hut</h1> </h1>
+
+
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+			<a class="nav-item nav-link" href="./home.php">Home Page</a>
+                        <a class="nav-item nav-link active" href="./theme_v0.html">Daily Theme <span class="sr-only">(current)</span></a>
+                        <a class="nav-item nav-link" href="./popular_v0.html">Popular Posts</a>
+			<a class="nav-item nav-link" href="./post.php">Post!</a>
+                    </div>
+                </div>
+                <form class="form-inline">
+                    <p> <a href="accountpage.html">My Account</a></p>
+                    <p> <a href="./post.php"><br>Post!</a> </p>
+                    <img src="img.jpg" , width="80" height="80">
+
+                </form>
+            </nav>
+
+        </section>
+
+        <!--JumboTron Display-->
+        <section class="jumbotron jumbotron-fluid bg-info text-white" id="Portfolio">
+            <div class="container">
+                <h1 class="display-4">Daily Theme <br> </h1>
+                <h5> <br> Today's theme is: <b>Cats</b></h5>
+                <h6> <br> If you want to vote for the next daily theme, vote below</h6>
+		<center><iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeSqvx6PFdn4T3w0TmJj14FEJ5M9VHaV6PvZA9_0RtOf_LPpQ/viewform?embedded=true" width="1100" height="470" frameborder="0" marginheight="0" align-content: "center" marginwidth="0">Loading…</iframe></center>
+                <h6>Posts of the following theme are below. Please feel free to create a post!</h6>
+		<center><iframe width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRvm6cDzhkkzpqcl97GtXIYPkpkqUZ9ycsiuxrxZp7BPZKny6bhZWbUOU_hBV0yQ_hV5C76nm6rfu6N/pubchart?oid=246392018&amp;format=interactive"></iframe></center>
+            </div>
+        </section>
+
+	   <div class="card"> 
+            <div class="content"> 
+                <h4><b>Check out my cat!</b></h4> 
+                <h7><b>Posted By: Sarah108</b></h7> 
+                <p>Hey guys, I took this picture while I was going on a walk, I really liked the trees, please give this a nice if you liked it.</p> 
+            </div> 
+            <img src="./cat.jpg" alt="black cat" style="width:100%" height="auto" class = "center"> 
+            <br> 
+            <p><button class = "like_btn"> 
+                 <span id = "icon"><i class ="far fa-thumbs-up"></i></span> 
+                 <span id = "count">101</span> NICE! 
+                </button> 
+            </p> 
+        </div>
+<br>
+<br>
+
+	  <!--Footer--> 
+    <div class="footer"> 
+ 	 <a href="logout.php" class="btn btn-danger ml-3">Sign Out of Your Account</a>
+    </div> 
+         
+               <script src="script.js"></script> 
+
+</body>
+</html>
